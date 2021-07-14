@@ -1,5 +1,5 @@
 const keyPressed = document.getElementById("keyPressed");
-const keyValue = document.getElementById("keyCode");
+const keyValue = document.getElementById("KCode");
 
 window.addEventListener("keypress", (event)=>{
     let key = event.code;
@@ -7,6 +7,6 @@ window.addEventListener("keypress", (event)=>{
 });
 
 window.addEventListener("keypress", (event)=>{
-    let keyValue = event.which;
+    let keyValue = event.key;
     keyCode.innerHTML = keyValue;
 });
